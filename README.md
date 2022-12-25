@@ -1,5 +1,6 @@
 # cpu_mips
 
+
 R type
 add:		Add:			0000:	$Rd,$Rs,$Rt:	$Rd = $Rs + $Rt
 sub:		Sub				0001:	$Rd,$Rs,$Rt:	$Rd = $Rs - $Rt
