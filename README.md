@@ -4,7 +4,7 @@
 R type
 add:		Add:			0000:	$Rd,$Rs,$Rt:	$Rd = $Rs + $Rt
 sub:		Sub				0001:	$Rd,$Rs,$Rt:	$Rd = $Rs - $Rt
-lt:			less than		0010:	$Rd,$Rs,$Rt:	if $Rs < $Rd then $Rd = 1 else 0
+lt:			less than		0010:	$Rd,$Rs,$Rt:	if $Rs < $Rt then $Rd = 1 else 0
 or:			Or				0011:	$Rd,$Rs,$Rt:	$Rd = $Rs or $Rt
 and:		And				0100:	$Rd,$Rs,$Rt:	$Rd = $Rs and $Rt
 shl:		shift left		0101: $Rd,$Rs,$Rt:	$Rd = $Rs << $Rt
